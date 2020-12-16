@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+package com.in28Minutes.rest.webservices.excption;
+
+/**
+ * @author ayosry
+ *
+ */
+public class ExceptionResponse
+{
+
+}

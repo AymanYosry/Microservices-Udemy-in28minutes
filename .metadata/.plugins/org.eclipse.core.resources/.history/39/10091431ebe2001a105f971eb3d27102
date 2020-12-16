@@ -1,0 +1,80 @@
+/**
+ * 
+ */
+package com.in28Minutes.rest.webservices;
+
+import java.util.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+/**
+ * @author ayosry
+ *
+ */
+public class User
+{
+	private Integer id;
+
+	private String name;
+	
+	private Date birthDate;
+
+	/**
+	 * 
+	 */
+	protected User()
+	{
+		super();
+	}
+
+	/**
+	 * @return the birthDate
+	 */
+	public Date getBirthDate()
+	{
+		return birthDate;
+	}
+
+	/**
+	 * @param birthDate the birthDate to set
+	 */
+	public void setBirthDate(Date birthDate)
+	{
+		this.birthDate = birthDate;
+	}
+
+	
+	/**
+	 * @return the id
+	 */
+	public Integer getId()
+	{
+		return id;
+	}
+
+	/**
+	 * @param id the id to set
+	 */
+	public void setId(Integer id)
+	{
+		this.id = id;
+	}
+
+	/**
+	 * @param name the name to set
+	 */
+	public void setName(String name)
+	{
+		this.name = name;
+	}
+
+	/**
+	 * @return the name
+	 */
+	public String getName()
+	{
+		return name;
+	}
+}

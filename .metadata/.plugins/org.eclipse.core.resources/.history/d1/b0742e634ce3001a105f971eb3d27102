@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+package com.in28Minutes.microservices.bean;
+
+/**
+ * @author ayosry
+ *
+ */
+public class LimitConfiguration
+{
+
+}

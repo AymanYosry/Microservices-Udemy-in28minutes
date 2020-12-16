@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+package com.in28Minutes.rest.webservices;
+
+/**
+ * @author ayosry
+ *
+ */
+public class HelloWorldBean extends String
+{
+
+}

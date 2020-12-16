@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+package com.in28Minutes.rest.webservices.user;
+
+/**
+ * @author ayosry
+ *
+ */
+public class UserNotFoundException extends RuntimeException
+{
+
+	public UserNotFoundException(String string)
+	{
+		// TODO Auto-generated constructor stub
+	}
+
+}

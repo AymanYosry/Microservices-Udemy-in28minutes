@@ -1,0 +1,9 @@
+server.port=8081
+#spring.jpa.show-sql=true
+#spring.h2.console.enabled=true
+spring.datasource.username=sa
+spring.datasource.password=welcome
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.jackson.serialization.write-dates-as-timestamps=false
+jaspring.jackson.
+#logging.level.org.springframework=DEBUG

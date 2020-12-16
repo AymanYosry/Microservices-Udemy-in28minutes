@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+package com.in28Minutes.rest.webservices.user;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.transaction.Transactional;
+
+import org.springframework.stereotype.Repository;
+
+
+/**
+ * @author ayosry
+ *
+ */
+public class UserDAOService
+{
+
+	public long insert(User user)
+	{
+		// Open Transaction
+		// Close Transaction
+		return user.getId();
+	}
+}

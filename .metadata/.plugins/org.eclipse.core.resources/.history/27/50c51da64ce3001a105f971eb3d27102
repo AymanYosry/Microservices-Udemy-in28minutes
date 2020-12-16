@@ -1,0 +1,23 @@
+/**
+ * 
+ */
+package com.in28Minutes.microservices;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.in28Minutes.microservices.bean.LimitConfiguration;
+
+/**
+ * @author ayosry
+ *
+ */
+@RestController
+public class LimitsConfigurationController
+{
+	@GetMapping("/limits")
+	public LimitConfiguration retrieveLimitsFromConfigurations()
+	{
+		
+	}
+}

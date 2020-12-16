@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="limits-service"/>
+<aop-project name="spring-cloud-config-server"/>
+<aop-project name="currency-exchange-service"/>
+<aop-project name="spring-in-5-steps"/>
+<aop-project name="jpa-in-10-steps"/>
+<aop-project name="springboot-in-10-steps"/>
+<aop-project name="currency-conversion-service"/>
+<aop-project name="resful-web-services"/>
+</aop-reference-model>

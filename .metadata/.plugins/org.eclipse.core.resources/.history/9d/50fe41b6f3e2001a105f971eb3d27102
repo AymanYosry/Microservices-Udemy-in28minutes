@@ -1,0 +1,33 @@
+/**
+ * 
+ */
+package com.in28Minutes.rest.webservices.user;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+/**
+ * @author ayosry
+ *
+ */
+@RestController
+public class UserResource
+{
+	@Autowired
+	UserDAOService service;
+	/**
+	 * Retrieve All Users
+	 * GET /users
+	 */
+	public List<User> retrieveAllUsers()
+	{
+		return service.findAll();
+	}
+	
+	/**
+	 * Retrieve One User
+	 * GET /users/{id} -> /users/1
+	 */
+}

@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+package com.in28Minutes.rest.webservices.user;
+
+/**
+ * @author ayosry
+ *
+ */
+public class UserNotFoundException extends RuntimeException
+{
+
+}

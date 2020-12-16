@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+package com.in28Minutes.microservices;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
+
+/**
+ * @author ayosry
+ *
+ */
+@Component
+@ConfigurationProperties("limits-srvice")
+public class Configuration
+{
+
+}

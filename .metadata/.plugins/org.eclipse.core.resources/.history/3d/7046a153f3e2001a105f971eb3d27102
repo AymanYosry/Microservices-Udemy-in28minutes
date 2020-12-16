@@ -1,0 +1,24 @@
+/**
+ * 
+ */
+package com.in28Minutes.rest.webservices.user;
+
+import org.springframework.web.bind.annotation.RestController;
+
+/**
+ * @author ayosry
+ *
+ */
+@RestController
+public class UserResource
+{
+	/**
+	 * Retrieve All Users
+	 * GET /users
+	 */
+	
+	/**
+	 * Retrieve One User
+	 * GET /users/{id} -> /users/1
+	 */
+}

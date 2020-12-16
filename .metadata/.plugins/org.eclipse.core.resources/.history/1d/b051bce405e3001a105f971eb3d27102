@@ -1,0 +1,24 @@
+/**
+ * 
+ */
+package com.in28Minutes.rest.webservices.excption;
+
+import java.util.Date;
+
+/**
+ * @author ayosry
+ *
+ */
+public class ExceptionResponse
+{
+	//time stamp
+	private Date timestamp;
+	
+	//exception message
+	private String message;
+	
+	//exception details
+	private String detail;
+	
+
+}

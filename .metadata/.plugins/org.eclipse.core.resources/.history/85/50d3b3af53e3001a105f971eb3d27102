@@ -1,0 +1,2 @@
+spring.application.name=spring-cloude-config-server
+server.port=8888

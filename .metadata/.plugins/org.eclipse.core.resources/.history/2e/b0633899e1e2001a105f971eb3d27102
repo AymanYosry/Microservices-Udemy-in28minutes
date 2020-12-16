@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+package com.in28Minutes.rest.webservices;
+
+/**
+ * @author ayosry
+ *
+ */
+public class HelloWorldBean extends String
+{
+
+	public HelloWorldBean(String string)
+	{
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,6 @@
+package com.in28Minutes.microservices.currencyexchangeservice;
+
+public class ExchangeValue
+{
+
+}

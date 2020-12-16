@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package com.in28Minutes.rest.webservices;
+
+/**
+ * @author ayosry
+ *
+ */
+public class HelloWorldController
+{
+	public String helloWorld()
+	{
+		return "Hello World";
+	}
+}
